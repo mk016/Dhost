@@ -30,7 +30,7 @@ interface Repository {
 interface Branch {
   name: string;
 }
-//From state
+
 export function GithubConnector({ onConnect }: GithubConnectorProps) {
   const { toast } = useToast();
   const [step, setStep] = useState<"connect" | "select" | "configure">("connect");
