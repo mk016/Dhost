@@ -44,7 +44,7 @@ export function FileUpload({
       setError(`Some files exceed the maximum size of ${Math.round(maxSize / (1024 * 1024))}MB.`);
       return;
     }
-    
+    //setFies
     setFiles(acceptedFiles);
   }, [maxFiles, maxSize]);
 
