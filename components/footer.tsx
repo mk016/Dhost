@@ -15,7 +15,7 @@ export function Footer() {
               Deploy your websites to the decentralized web with one click.
             </p>
           </div>
-          
+              
           <div>
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-2">
